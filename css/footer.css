@@ -52,7 +52,7 @@ footer.nb-footer {
     margin: 0;
     padding: 0; }
     .navbar-default{
-        padding: 2%
+        /* padding: 2% */
     }
 
     .fa {
@@ -60,7 +60,8 @@ footer.nb-footer {
         padding-top: 15%;
     }
 body{
-    background-image: url("images/skygold.jpg")
+
+    overflow-x:hidden;
 
 }
     .navbar-default {
@@ -68,5 +69,71 @@ body{
     }
     .container-fluid {
         padding-left: 0px;
-        padding-right: 0px
+        padding-right: 0px;
     }
+    
+
+.navbar {
+    margin-bottom: 0px;
+    border:0px;
+}
+
+.mynav{
+    color: white
+}
+
+@media (min-width: 768px){
+
+.navbar{
+    border-radius:0px;
+}
+}
+
+#section1, #section3{background-color: #a9a9a93b}
+
+
+.navbar-default .navbar-nav>li>a{
+
+    color: ivory
+}
+
+.navbar-default .navbar-brand{
+
+    color: white
+}
+
+@media (min-width: 768px){
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+    margin-left: 10px
+}
+}
+
+
+
+
+p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+
+  h1,h2{
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+
+
+
+.bw{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
